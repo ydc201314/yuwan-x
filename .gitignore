@@ -1,0 +1,42 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+/target/
+/test/
+.idea/
+fastdfs_client/fastdfs_client.iml
+fastdfs_client/src/main/java/main6.iml
+fastdfs_client/src/test/
+fastdfs_client/target/
+yuwan-common/src/main/main2.iml
+yuwan-common/src/test/
+yuwan-common/target/
+yuwan-common/yuwan-common.iml
+yuwan-manager-web/src/main/main3.iml
+yuwan-manager-web/target/
+yuwan-manager-web/yuwan-manager-web.iml
+yuwan-manager/yuwan-manager-dao/src/main/main5.iml
+yuwan-manager/yuwan-manager-dao/src/test/
+yuwan-manager/yuwan-manager-dao/target/
+yuwan-manager/yuwan-manager-dao/yuwan-manager-dao.iml
+yuwan-manager/yuwan-manager-interface/src/main/main4.iml
+yuwan-manager/yuwan-manager-interface/src/test/
+yuwan-manager/yuwan-manager-interface/target/
+yuwan-manager/yuwan-manager-interface/yuwan-manager-interface.iml
+yuwan-manager/yuwan-manager-pojo/src/main/main.iml
+yuwan-manager/yuwan-manager-pojo/src/test/
+yuwan-manager/yuwan-manager-pojo/target/
+yuwan-manager/yuwan-manager-pojo/yuwan-manager-pojo.iml
+yuwan-manager/yuwan-manager-service/src/main/main1.iml
+yuwan-manager/yuwan-manager-service/src/test/
+yuwan-manager/yuwan-manager-service/target/
+yuwan-manager/yuwan-manager-service/yuwan-manager-service.iml
+yuwan-manager/yuwan-manager.iml
+yuwan-parent/yuwan-parent.iml
+/yuwan-sso/yuwan-sso-interface/src/test/
