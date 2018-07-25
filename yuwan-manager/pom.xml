@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>yuwan-parent</artifactId>
+        <groupId>com.yuwan</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../yuwan-parent/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>yuwan-manager</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>yuwan-manager-pojo</module>
+        <module>yuwan-manager-service</module>
+        <module>yuwan-manager-dao</module>
+        <module>yuwan-manager-interface</module>
+    </modules>
+    <build>
+        <plugins>
+            <!-- 配置Tomcat插件 -->
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <configuration>
+                    <!-- http://127.0.0.1:${port}/${path} -->
+                    <port>8081</port>
+                    <path>/</path>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
