@@ -1,4 +1,4 @@
-package com.yuwan.controller.portal.interceptor;
+package com.yuwan.controller.order.interceptor;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

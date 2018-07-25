@@ -2,10 +2,10 @@
  Date: 2014-01-21 
  */
 function login() {
-    return location.href = "http://sso.taotao.com/page/login";
+    return location.href = "http://sso.yudch.top/page/login";
 }
 function regist() {
-    return location.href = "http://sso.taotao.com/page/register";
+    return location.href = "http://sso.yudch.top/page/register";
 }
 function createCookie(a, b, c, d) {
     var d = d ? d : "/";
