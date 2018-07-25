@@ -2,14 +2,23 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.yuwan</groupId>
-    <artifactId>yuwan-parent</artifactId>
+    <artifactId>yuwan-x</artifactId>
     <version>1.0-SNAPSHOT</version>
     <description>所有工程的父工程，管理jar包和版本号</description>
-    <name>yuwan-parent</name>
+    <name>yuwan-x</name>
     <packaging>pom</packaging>
+    <modules>
+        <module>fastdfs_client</module>
+        <module>yuwan-common</module>
+        <module>yuwan-manager</module>
+        <module>yuwan-manager-web</module>
+        <module>yuwan-portal</module>
+        <module>yuwan-portal-web</module>
+    </modules>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
