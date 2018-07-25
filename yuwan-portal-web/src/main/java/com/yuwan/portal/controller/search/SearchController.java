@@ -1,4 +1,4 @@
-package com.yuwan.controller.search;
+package com.yuwan.portal.controller.search;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

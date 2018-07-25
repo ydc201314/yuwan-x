@@ -1,4 +1,4 @@
-package com.yuwan.controller.portal;
+package com.yuwan.portal.controller.portal;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;

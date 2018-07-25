@@ -1,4 +1,4 @@
-package com.yuwan.controller.item.message;
+package com.yuwan.portal.controller.item.message;
 
 import java.io.File;
 import java.io.FileWriter;

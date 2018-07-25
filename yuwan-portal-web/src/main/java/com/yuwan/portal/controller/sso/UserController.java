@@ -1,4 +1,4 @@
-package com.yuwan.controller.sso;
+package com.yuwan.portal.controller.sso;
 
 import javax.servlet.http.HttpServletRequest;
 

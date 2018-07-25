@@ -12,7 +12,7 @@
 	<context:property-placeholder location="classpath:resource/*.properties" />
 
 	<!-- 配置controller扫描 -->
-	<context:component-scan base-package="com.yuwan.controller.*" />
+	<context:component-scan base-package="com.yuwan.portal.controller.*" />
 
 	<!-- 配置注解驱动 -->
 	<mvc:annotation-driven />
@@ -39,7 +39,7 @@
 			<!-- **：/order/a/b/a.html *：/order/a -->
 			<mvc:mapping path="/order/**" />
 			<!-- 配置拦截器 -->
-			<bean class="com.yuwan.controller.order.interceptor.OrderInterceptor" />
+			<bean class="com.yuwan.portal.controller.order.interceptor.OrderInterceptor" />
 		</mvc:interceptor>
 	</mvc:interceptors>
 	<!-- 配置dubbo服务 -->

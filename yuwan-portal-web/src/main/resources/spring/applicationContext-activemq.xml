@@ -29,7 +29,7 @@
 	</bean>
 
 	<!-- messageListener实现类 -->
-	<bean id="myMessageListener" class="com.yuwan.controller.item.message.ItemMessageListener" />
+	<bean id="myMessageListener" class="com.yuwan.portal.controller.item.message.ItemMessageListener" />
 	<!-- 配置一个jsm监听容器 -->
 	<bean id="jmsContainer"
 		class="org.springframework.jms.listener.DefaultMessageListenerContainer">

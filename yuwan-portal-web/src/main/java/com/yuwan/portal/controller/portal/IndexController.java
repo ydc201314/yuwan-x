@@ -1,4 +1,4 @@
-package com.yuwan.controller.portal;
+package com.yuwan.portal.controller.portal;
 
 import com.yuwan.manager.service.ContentService;
 import org.springframework.beans.factory.annotation.Autowired;

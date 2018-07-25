@@ -1,4 +1,4 @@
-package com.yuwan.controller.item;
+package com.yuwan.portal.controller.item;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
