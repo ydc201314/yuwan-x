@@ -45,11 +45,6 @@
     <servlet-mapping>
         <servlet-name>yuwan-portal-web</servlet-name>
         <!-- 所有已service开头的请求进入springmvc -->
-        <url-pattern>/service/*</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>yuwan-portal-web</servlet-name>
-        <!-- 所有已service开头的请求进入springmvc -->
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 </web-app>

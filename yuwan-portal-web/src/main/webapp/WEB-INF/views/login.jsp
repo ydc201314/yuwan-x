@@ -208,7 +208,7 @@
 	        var _password = $("#formlogin [name=password]").val();
 	        $.ajax({
 	            type: "POST",
-	            url: "/service/user/doLogin?r=" + Math.random(),
+	            url: "/user/doLogin?r=" + Math.random(),
 	            contentType: "application/x-www-form-urlencoded; charset=utf-8",
 	            data: {username:_username,password:_password},
 	            dataType : "json",

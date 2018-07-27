@@ -13,7 +13,7 @@
 
 	<!-- 配置controller扫描 -->
 	<context:component-scan base-package="com.yuwan.portal.controller.*" />
-
+	<mvc:default-servlet-handler/>
 	<!-- 配置注解驱动 -->
 	<mvc:annotation-driven />
 
