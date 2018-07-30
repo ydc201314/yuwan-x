@@ -20,7 +20,7 @@
    <script type="text/javascript" src="/js/jquery-1.2.6.min.js"></script>
    <script type="text/javascript" src="/js/base-2011.js" charset="utf-8"></script>
    <script type="text/javascript" src="/js/jquery.cookie.js" charset="utf-8"></script>
-   <script type="text/javascript" src="/js/taotao.js" charset="utf-8"></script>
+   <script type="text/javascript" src="/js/yuwan.js" charset="utf-8"></script>
 </head> <body id="mainframe">
 <!--shortcut start-->
 <jsp:include page="../commons/shortcut.jsp" />

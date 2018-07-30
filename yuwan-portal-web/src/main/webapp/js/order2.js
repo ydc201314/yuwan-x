@@ -2882,7 +2882,7 @@ function submit_Order() {
 	jQuery.ajax( {
 		type : "POST",
 		dataType : "json",
-		url : "/service/order/submit",
+		url : "/order/submit",
 		data : $("#orderForm").serialize(),
 		cache : false,
 		success : function(result) {
