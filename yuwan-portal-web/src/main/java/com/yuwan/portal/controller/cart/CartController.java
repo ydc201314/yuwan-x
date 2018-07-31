@@ -32,8 +32,8 @@ import com.yuwan.service.sso.UserService;
 @RequestMapping("cart")
 public class CartController {
 
-	@Value("${YUWAN_CART}")
-	private String YUWAN_CART;
+	@Value("${YUWAN_TICKET}")
+	private String YUWAN_TICKET;
 
 	@Autowired
 	private UserService userService;
@@ -59,7 +59,7 @@ public class CartController {
 								@PathVariable("itemId") Long itemId, @RequestParam("num") Integer num) {
 		// 获取用户登录信息
 		// 获取cookie中的ticket
-		String ticket = CookieUtils.getCookieValue(request, this.YUWAN_CART, true);
+		String ticket = CookieUtils.getCookieValue(request, this.YUWAN_TICKET, true);
 		// 使用单点登录服务，通过ticket查询用户信息
 		User user = this.userService.queryUserByTicket(ticket);
 
@@ -88,7 +88,7 @@ public class CartController {
 	@RequestMapping(value = "show", method = RequestMethod.GET)
 	public String show(Model model, HttpServletRequest request) {
 		// 查询用户登录信息
-		String ticket = CookieUtils.getCookieValue(request, this.YUWAN_CART, true);
+		String ticket = CookieUtils.getCookieValue(request, this.YUWAN_TICKET, true);
 		User user = this.userService.queryUserByTicket(ticket);
 
 		// 声明购物车容器
@@ -121,7 +121,7 @@ public class CartController {
 	public void updateItemByCart(HttpServletRequest request, HttpServletResponse response,
 								 @PathVariable("itemId") Long itemId, @PathVariable("num") Integer num) {
 		// 查询用户登录信息
-		String ticket = CookieUtils.getCookieValue(request, this.YUWAN_CART, true);
+		String ticket = CookieUtils.getCookieValue(request, this.YUWAN_TICKET, true);
 		User user = this.userService.queryUserByTicket(ticket);
 
 		// 判断查询结果是否为空
@@ -146,7 +146,7 @@ public class CartController {
 	public String deleteItemByCart(HttpServletRequest request, HttpServletResponse response,
 								   @PathVariable("itemId") Long itemId) { // 查询用户登录信息
 		// 查询用户登录信息
-		String ticket = CookieUtils.getCookieValue(request, this.YUWAN_CART, true);
+		String ticket = CookieUtils.getCookieValue(request, this.YUWAN_TICKET, true);
 		User user = this.userService.queryUserByTicket(ticket);
 
 		// 判断查询结果是否为空
